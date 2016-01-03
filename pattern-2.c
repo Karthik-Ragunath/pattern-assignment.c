@@ -1,17 +1,6 @@
 # pattern-assignment.c
 #include <stdio.h>
 #include <stdlib.h>
-int factorial(int num)
-{
-	int fact=1;
-	int min=2;
-	while(min<=num)
-	{
-		fact=fact*min;
-		min++;
-	}
-	return fact;
-}
 
 int main(void) {
 	int rows,i,j,number;
